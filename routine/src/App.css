@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  color: #EB3E1D;
+  position: relative;
+  bottom: -30px; 
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
+h2{
+  color: black;
+}
+button{
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative;
+  bottom: -50px;
+  margin-left: 20px;
+}
+
+body {
+  background: white;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 360px;
+  background-color: #dd5a40;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+  margin-left: 100px;
+  position: relative;
+  bottom: -150px;
+  margin-top: -400px;
+
+}
+.form{
+  width: 360px;
+  background-color: #dd5a40;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+  margin-left: 30px;
+  position: relative;
+  bottom: -100px;
+  margin-top: -150px;
+}
+
+.btn2{
+  text-decoration: none;
+  color: white;
+  
+} 
+.assignform{
+  background-color: gainsboro;
+  padding: 100px;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: #EB3E1D;
+}
+li{
+  color: black;
+}
+.child{
+  color: black;
+  position: relative;
+  bottom: 90px;
+  margin-right: 100px;
+  
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+button {
+  background: #EB3E1D;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+select{
+  margin-left: 250px;
+  position: relative;
+  bottom: 18px;
+  border-color: tomato;
+}
+.h2{
+  margin-right: 160px;
+ 
+}
+.days{
+  margin-left: 50px;
+  position: relative;
+  bottom: 23px;
+
+}
+.chore{
+  margin-left: 350px;
+  position: relative;
+  bottom: 130px;
+  color: black;
+}
+
+.my-form{
+  background-color: gainsboro;
+  height: 500px;
+  width: 400px;
+  position: relative;
+  bottom: 40px;
+  border-radius: 10px;
+}
+
+.rota{
+  color: black;
+
+}
+.magezi{
+  position: relative;
+  bottom: -150px;
+
+}
+
+.button a{
+  text-decoration: none;
+}
+.btn{
+  text-decoration: none;
+  color: white;
+}
+.tasklist{
+  display: flex;
+  float: left;
+}
+
+.lable{
+  margin-left: 100px;
+  position: relative;
+  bottom: 100px;
+}
