@@ -1,18 +1,18 @@
 import React from 'react'
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 function Register() {
-    <div>
-        <h1>Register/Login as a parent</h1>
-    </div>
-   
-    return (
-        
-        <div class="form-container">
-             
+  <div>
+    <h1>Register/Login as a parent</h1>
+  </div>
+
+  return (
+
+    <div class="form-container">
+
       <form class="register-form">
-          <h2>Register</h2>      
+        <h2>Register</h2>
         <input
           id="Name"
           class="form-field"
@@ -20,7 +20,7 @@ function Register() {
           placeholder="Name"
           name="Name"
         />
-        
+
         <input
           id="Email"
           class="form-field"
@@ -28,7 +28,7 @@ function Register() {
           placeholder="Email"
           name="Email"
         />
-        
+
         <input
           id="Password"
           class="form-field"
@@ -36,13 +36,13 @@ function Register() {
           placeholder="Password"
           name="Password"
         />
-        
-        <button>        
-        <Link to= "/Login"className="btn">Register</Link>
+
+        <button>
+          <Link to="/Login" className="btn">Register</Link>
         </button>
 
       </form>
     </div>
   );
 }
- export default Register;
+export default Register;

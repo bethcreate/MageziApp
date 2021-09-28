@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Landing from './components/Landing/LandingPage';
 import Register from './components/Register/Register';
 import AssignChores from './components/Assign/Assign';
@@ -8,33 +8,33 @@ import TaskList from './components/AssignedTask/taskList';
 
 function App() {
   return (
-    
+
     <Router>
-    <div className="App">
-      <Route exact path="/" >
-        <Landing/>
-      </Route>
-      
-      <Route path="/Register">
-      <Register/>
-       </Route>
+      <div className="App">
+        <Route exact path="/" >
+          <Landing />
+        </Route>
 
-      <Route exact path="/Login" >
-      <Login/>
+        <Route path="/Register">
+          <Register />
+        </Route>
 
-      </Route>
+        <Route exact path="/Login" >
+          <Login />
 
-      <Route exact path="/Assign" >
-      <AssignChores/>
+        </Route>
 
-      </Route>
+        <Route exact path="/Assign" >
+          <AssignChores />
 
-      <Route exact path="/AssinedTask" >
-        <TaskList/>
-      </Route>
-    
-    </div>
-    </Router>  
+        </Route>
+
+        <Route exact path="/AssinedTask" >
+          <TaskList />
+        </Route>
+
+      </div>
+    </Router>
   );
 
 }
