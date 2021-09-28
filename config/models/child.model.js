@@ -122,7 +122,7 @@ Child.findById = (childId, result) => {
       if (err)
         res.status(500).send({
           message:
-            err.message || "Some error occurred while creating the Customer."
+            err.message || "Some error occurred while creating the Child"
         });
       else res.send(data);
     });

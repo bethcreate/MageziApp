@@ -7,7 +7,7 @@ const  PORT = 5000;
 app.use(cors());
 app.use(express.json())
 
-// Route to get all posts
+
 app.get("/api/get", (req,res)=>{
 db.query("SELECT * FROM children", (err,result)=>{
     if(err) {
@@ -16,7 +16,7 @@ db.query("SELECT * FROM children", (err,result)=>{
 res.send(result)
 });   });
 
-// Route to get one post
+
 app.get("/api/getFromId/:id", (req,res)=>{
 
 const id = req.params.id;
@@ -28,7 +28,7 @@ const id = req.params.id;
     res.send(result)
     });   });
 
-// Route for creating the post
+
 app.post('/api/create', (req,res)=> {
 
 const name = req.body.name;
@@ -41,19 +41,6 @@ db.query("INSERT INTO children (name) VALUES (?)",[name], (err,result)=>{
    } 
    console.log(result)
 });   })
-
-// Route to like a post
-app.post('/api/like/:id',(req,res)=>{
-
-const id = req.params.id;
-db.query("UPDATE children SET likes = likes + 1 WHERE id = ?",id, (err,result)=>{
-    if(err) {
-   console.log(err)   } 
-   console.log(result)
-    });    
-});
-
-// Route to delete a post
 
 app.delete('/api/delete/:id',(req,res)=>{
 const id = req.params.id;
