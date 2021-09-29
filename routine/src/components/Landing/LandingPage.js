@@ -11,7 +11,7 @@ function LandingPage() {
     let history = useHistory();
 
     useEffect(() => {
-        Axios.get("http://localhost:5000/api/get").then((data) => {
+        Axios.get("http://localhost:5000/children").then((data) => {
             settaskList(data.data)
         });
     }, [])

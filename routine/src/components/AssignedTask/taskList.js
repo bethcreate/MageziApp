@@ -38,7 +38,7 @@ function TaskList() {
       </div>
       <div className="mybtn">
       <button>
-        <Link to="/LandingPage" className="btn">Home</Link>
+        <Link to="/" className="btn">Home</Link>
       </button>
       </div>
     </div>

@@ -165,8 +165,9 @@ select{
   color: white;
 }
 .tasklist{
-  display: flex;
-  float: left;
+  vertical-align: bottom;
+  padding: 20px;
+ 
   
 }
 
