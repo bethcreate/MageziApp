@@ -9,7 +9,7 @@ app.use(express.json())
 
 
 app.get("/api/get", (req, res) => {
-    db.query("SELECT * FROM children", (err, result) => {
+    db.query("SELECT * FROM tasks", (err, result) => {
         if (err) {
             console.log(err)
         }

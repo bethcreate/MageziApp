@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 function LandingPage() {
 
-    const [taskList, settaskList] = useState([]);
+    const [taskList, settaskList] = useState([0]);
 
     let history = useHistory();
 
