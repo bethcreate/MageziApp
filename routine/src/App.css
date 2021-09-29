@@ -167,6 +167,7 @@ select{
 .tasklist{
   display: flex;
   float: left;
+  
 }
 
 .lable{

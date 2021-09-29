@@ -13,9 +13,6 @@ db.connect(function (error) {
 
 var data = "INSERT INTO tasks (Day,Name, task) VALUES ('Monday','Mugo', 'Clean the house')"
 var data= "INSERT INTO tasks(Day,Name,task) VALUES('thursday','Joy','take care of the baby')"
-
-
-
 ;
 db.query(data, function (err, result) {
   if (err) throw err;
